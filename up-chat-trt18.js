@@ -8,6 +8,12 @@
 // @grant        none
 // ==/UserScript==
 
+/*
+###########################################################################
+Se quiser alterar a definição de tempo do script, olhar no final do código
+###########################################################################
+*/
+
 (function() {
     'use strict';
 
@@ -47,13 +53,11 @@
 
     
     function interface_check_changes(time){
-        //entre com o tempo em segundos para definir o intervalo de checagem para chats entrantes
         setInterval(check_changes, time*1000)
     }
 
     
     function interface_refresh(time){
-        //entre com o tempo em segundos para definir o intervalo de atualização da pagina
         setTimeout(refresh, time*1000);
     }
 
