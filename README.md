@@ -2,7 +2,8 @@
 
 # Sobre o Script
 
-O Script em questão tem o intuito de atualizar a página do chat TRT18 em um intervalo de tempo predefinido e também emite um alerta sonoro quando entra um novo chat.
+O Script em questão tem o intuito de corrigir bugs atuais do chat TRT18, fazendo atualização da pagina em um intervalo de tempo predefinido e também emite um alerta sonoro quando entra um novo chat. Para rodar o script
+é necessário realizar a instalação da extensão tampermonkey no seu navegador.
 
 # Instalando a extensão Tampermonkey
 
@@ -36,4 +37,4 @@ Na aba "Userscripts instalados", verifique se o script está ativado.
 
 ## Passo 4
 
-Pronto o script já está configurado e vai ser carregado somente no chat, pois as configurações estão no cabeçalho do Script;
+Pronto o script já está configurado e vai ser carregado somente no chat, pois as configurações estão no cabeçalho do Script ;-D
