@@ -25,7 +25,7 @@ Clicar no ícone da extensão e selecionar a opção **Adicionar Novo Script**
 
 ## Passo 2
 
-Na janela em questão, copiar o Script do github [(Link)](https://github.com/gabrielgoliveira/correcao-chat-TRT18/blob/master/up-chat-trt18.js) , voltar para o tampermonkey e então apague todo o código que está sendo exibido e cole o meu código do Github. Após isso clique em Arquivo → Salvar ou (Ctrl + s).
+Na janela em questão, copiar o Script no meu repositório [(Link)](https://github.com/gabrielgoliveira/correcao-chat-TRT18/blob/master/up-chat-trt18.js) , voltar para o tampermonkey e então apague todo o código que está sendo exibido e cole o meu código do Github. Após isso clique em Arquivo → Salvar ou (Ctrl + s).
 
 ![](/img/passo_2.png)
 
@@ -37,4 +37,4 @@ Na aba "Userscripts instalados", verifique se o script está ativado.
 
 ## Passo 4
 
-Pronto o script já está configurado e vai ser carregado somente no chat, pois as configurações estão no cabeçalho do Script ;-D
+Pronto o script já está configurado e vai ser carregado apenas no chat, pois as configurações estão no cabeçalho do Script ;-D
