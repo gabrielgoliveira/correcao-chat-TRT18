@@ -20,22 +20,19 @@ O Tampermonkey é uma extensão que executa scripts do usuário.
 
 Clicar no ícone da extensão e selecionar a opção **Adicionar Novo Script**
 
-![img/passo_1.png]
-(img/passo_1.png)
+![](/img/passo_1.png)
 
 ## Passo 2
 
 Na janela em questão, copiar o Script do github [(Link)](https://github.com/gabrielgoliveira/correcao-chat-TRT18/blob/master/up-chat-trt18.js) , voltar para o tampermonkey e então apague todo o código que está sendo exibido e cole o meu código do Github. Após isso clique em Arquivo → Salvar ou (Ctrl + s).
 
-![img/passo_2.png]
-(img/passo_2.png)
+![](/img/passo_2.png)
 
 ## Passo 3
 
 Na aba "Userscripts instalados", verifique se o script está ativado.
 
-![img/passo_3.png]
-(img/passo_3.png)
+![](/img/passo_3.png)
 
 ## Passo 4
 

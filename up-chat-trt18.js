@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         TRT18 Chat
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/gabrielgoliveira/correcao-chat-TRT18
 // @version      0.1
-// @description  try to take over the world!
+// @description  Resolvendo problema do Chat
 // @author       Gabriel Oliveira
 // @match        https://chat.trt18.jus.br/channel/publico
 // @grant        none
@@ -17,6 +17,8 @@
     source.setAttribute('type', 'audio/mpeg');
 
     console.log('-------------- Script Rodando ---------------------');
+
+//definição das funções
 
     function check_changes(){
 
@@ -43,6 +45,23 @@
         setTimeout(check_changes, 3000);
     }
 
-    setTimeout(refresh, 60000);
-    setInterval(check_changes, 5000)
+    
+    function interface_check_changes(time){
+        //entre com o tempo em segundos para definir o intervalo de checagem para chats entrantes
+        setInterval(check_changes, time*1000)
+    }
+
+    
+    function interface_refresh(time){
+        //entre com o tempo em segundos para definir o intervalo de atualização da pagina
+        setTimeout(refresh, time*1000);
+    }
+
+/*
+    Execução do Codigo
+
+    OBS : Caso queira alterar entre com o tempo em segundos
+*/
+    interface_refresh(60)
+    interface_check_changes(1);
 })();
